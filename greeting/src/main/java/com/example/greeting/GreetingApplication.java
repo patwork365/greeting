@@ -23,7 +23,7 @@ import static java.lang.Integer.parseInt;
 // we need to add an temp annotation to ignore the dependency
 
 @SpringBootApplication
-@ComponentScan({"com.example.greeting"})
+//@ComponentScan({"com.example.greeting"})
 public class GreetingApplication {
 
 	public static void main(String[] args) {

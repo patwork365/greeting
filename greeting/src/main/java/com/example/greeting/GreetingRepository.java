@@ -18,7 +18,7 @@ public interface GreetingRepository extends JpaRepository<Greeting, String> {
         // Jpa will parse the names of these custom  methods to look for "find" "by"
     Greeting findByid(int id);
 
-    void remove(Greeting greeting);
+//    void remove(Greeting greeting);
     // find - looking for something
             // By - the condition of whats being looked for
             // id - the variable
